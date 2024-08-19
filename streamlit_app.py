@@ -13,12 +13,12 @@ import streamlit as st
 #         st.write("I'm sorry. You have bad tastes!")
 st.title("Computer Commands App")
 st.write("""Welcome to the Computer Commands app.
-         This will calculate any different commands. HALLO!!!!""")
+         This will calculate any different commands.""")
 st.header("AND")#hello
 and1 = st.checkbox(":1 AND")
 and2 = st.checkbox(":2 AND")
 if and1 and and2:
-    st.write("HALOO!")
+    st.write(True)
 else:
     st.write(False)
 
