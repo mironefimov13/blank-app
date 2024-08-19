@@ -18,7 +18,7 @@ st.header("AND")
 and1 = st.checkbox(":1 AND")
 and2 = st.checkbox(":2 AND")
 if and1 and and2:
-    st.write(True)
+    st.write("HALOO!")
 else:
     st.write(False)
 
