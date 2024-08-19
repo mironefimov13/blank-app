@@ -13,7 +13,7 @@ import streamlit as st
 #         st.write("I'm sorry. You have bad tastes!")
 st.title("Logic Operations App")
 st.write("""Welcome to the Logic Operations app.
-         This will calculate any different Operations. BLAH""")
+         This will calculate any different Operations.""")
 st.header("AND")#hello
 and1 = st.checkbox(":1 AND")
 and2 = st.checkbox(":2 AND")
