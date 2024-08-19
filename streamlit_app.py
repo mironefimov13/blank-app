@@ -7,7 +7,7 @@ import streamlit as st
 # like = st.checkbox("Do you like this app?")
 # button2 = st.button("Submit")
 # if button2:
-#     if like:
+#     if like:s
 #         st.write("Thanks. I like it too")
 #     else:
 #         st.write("I'm sorry. You have bad tastes!")
