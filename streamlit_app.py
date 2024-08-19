@@ -1,8 +1,8 @@
 import streamlit as st
 st.title("The Miron App")
+st.write("""Hi! I am Miron Efimov. I am a Programmer and Engineer. This is my page of stuff.""")
 st.title("Logic Operations Section")
-st.write("""Welcome to the Logic Operations section.
-         This will calculate any different Operations.""")
+st.write("""In this section, you can use operations like AND, OR, and XOR.""")
 st.header("AND")#hello
 and1 = st.checkbox(":1 AND")
 and2 = st.checkbox(":2 AND")
@@ -26,3 +26,6 @@ if xor1 != xor2:
     st.write(True)
 else:
     st.write(False)
+
+st.title("The Graph Section")
+st.write("Here, you can mess around with graphs and charts. Or even make random charts.")
