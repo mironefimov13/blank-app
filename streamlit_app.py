@@ -1,18 +1,7 @@
 import streamlit as st
-# st.title("Streamlit Tutorial App")
-# st.write("This is my new app")
-# button1 = st.button("Click Me")
-# if button1:
-#     st.write("This is some text")
-# like = st.checkbox("Do you like this app?")
-# button2 = st.button("Submit")
-# if button2:
-#     if like:s
-#         st.write("Thanks. I like it too")
-#     else:
-#         st.write("I'm sorry. You have bad tastes!")
-st.title("Logic Operations App")
-st.write("""Welcome to the Logic Operations app.
+st.title("The Miron App")
+st.title("Logic Operations Section")
+st.write("""Welcome to the Logic Operations section.
          This will calculate any different Operations.""")
 st.header("AND")#hello
 and1 = st.checkbox(":1 AND")
